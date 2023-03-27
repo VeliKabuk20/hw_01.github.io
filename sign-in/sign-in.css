@@ -1,0 +1,141 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.card-header{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+}
+.card-title{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 175px;
+    height: 100px;
+    background-color: #f12639;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.card-img{
+    width: 50vw;
+    height: 100vh;
+    background-image: url('sign-in.jpg');
+    background-size: cover;
+    background-position: 40% 60%;
+}
+.card-form{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+}
+.form-mrg{
+    margin-left: 150px;
+}
+.form-title{
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 100px;
+   
+}
+.form-parag{
+    font-family: Oswald;
+    font-weight: 400;
+    color: #5a5c63;
+    font-size: 25px;
+}
+.txtBtn{
+    width: 500px;
+   height: 57px;
+    margin-top: 50px;
+    border : 1px solid #cdced3;
+    padding: 20px;
+    outline: none;
+    font-weight: 400;
+    color: #343a40;
+}
+.form-check{
+    margin-top: 30px;
+}
+.check-txt{
+    position: relative;
+    bottom: 2px;
+    margin-left: 3px;
+}
+.card-form a{
+    text-decoration: none;
+    color: #f12639;
+}
+.form-forget{
+    position: relative;
+    bottom: 2px;
+    margin-left: 267px;
+}
+.form-forget:hover{
+    text-decoration: underline;
+}
+.form-btn{
+    background-color: #f2384a;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.form-btn:hover{
+    cursor: pointer;
+    background-color: rgb(243, 8, 31);
+}
+.account{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: .8;
+}
+.red{
+    border: 1px solid #f12639;
+    box-shadow: 0px 0px 5px #f2384a;
+    
+}
+.gecis1{
+    position: absolute;
+    z-index: 6;
+    top: 0%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: left 0.8s;*/
+
+}
+@keyframes left{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(400%);
+    }
+}
+.gecis2{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: right 0.8s;*/
+}
+@keyframes right{
+    from{
+        transform: translate(0);
+        
+    }
+    to{
+        transform: translate(-400%);
+    }
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Oswald;
+}
+.recover-header{
+    background-image: url('bg-14.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 30% 50%;
+    position: relative;
+}
+.recover-header::after{
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f2749!important;
+    opacity: .7;
+}
+.card-title{
+    position: absolute;
+    width: 175px;
+    z-index: 5;
+    height: 100px;
+    background-color: #f12639;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 200;
+    margin-left: 225px;
+}
+.recover-section{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    width: 465px;
+    height: 406px;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+}
+.ml{
+    margin-left: 50px;
+}
+.recover-title{
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.recover-parag{
+    color: #5a5c63!important;
+    font-size: 23px;
+}
+.recover-input{
+    margin-top: 50px;
+    border: 1px solid #cdced3;
+    width: 350px;
+    height: 45px;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+}
+.recover-btn{
+    margin-top: 25px;
+    border: none;
+    background-color: #f94759;
+    color: #fff;
+    width: 350px;
+    height: 45px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all .6s;
+}
+.recover-btn:hover{
+    cursor: pointer;
+    background-color: #f12639;
+}
+.recover-span{
+    display: inline-block;
+    width: 350px;
+    height: 45px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.gecis1{
+    position: absolute;
+    z-index: 6;
+    top: 0%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: left 0.8s;*/
+
+}
+@keyframes left{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(400%);
+    }
+}
+.gecis2{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: right 0.8s;*/
+}
+@keyframes right{
+    from{
+        transform: translate(0);
+        
+    }
+    to{
+        transform: translate(-400%);
+    }
+}
+body{
+    overflow: hidden;
+}

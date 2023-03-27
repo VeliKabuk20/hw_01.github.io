@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: Oswald;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.form-mrg{
+    margin-left: 150px;
+}
+.card-header{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+}
+.card-title{
+    position: absolute;
+    width: 175px;
+    height: 100px;
+    background-color: #f12639;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 200;
+    margin-left: 225px;
+}
+.card-img{
+    width: 50vw;
+    height: 100vh;
+    background: url('bg-13.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.card-forms{
+    width: 50vw;
+    height: 100vh;
+    float: left;
+}
+.card-form{
+    margin-top: 100px;
+}
+.form-title{
+    font-size: 40px;
+    font-weight: 400;
+}
+.form-parag{
+    margin-top: 8px;
+    font-size: 25px;
+    color: #5a5c63!important;
+    opacity: .6;
+}
+.txtBtn{
+    width: 500px;
+     height: 57px;
+    margin-top: 40px;
+    border : 1px solid #cdced3;
+    padding: 20px;
+    outline: none;
+    font-weight: 400;
+    color: #343a40;
+    font-size: 15px;
+}
+.form-btn{
+    background-color: #262831;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    height: 57px;
+    margin-top: 40px;
+    border: none;
+}
+.form-btn:hover{
+    cursor: pointer;
+    background-color: #14192e;
+}
+.account{
+    margin-top: 15px;
+    width: 500px;
+    text-align: center;
+}
+.account a{
+    text-decoration: none;
+    color: red;
+    margin-left: 5px;
+}
+.hr-down{
+    width: 500px;
+    margin-top: 30px;
+}
+
+.blue{
+    border: 1px solid #14192e;
+    box-shadow:0 0 5px #14192e;
+}
+.gecis1{
+    position: absolute;
+    z-index: 6;
+    top: 0%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: left 0.8s;*/
+
+}
+@keyframes left{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(400%);
+    }
+}
+.gecis2{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    width: 98.9vw;
+    height: 50vh;
+    border-top: 50vh solid #fff;
+    /*animation: right 0.8s;*/
+}
+@keyframes right{
+    from{
+        transform: translate(0);
+        
+    }
+    to{
+        transform: translate(-400%);
+    }
+}
